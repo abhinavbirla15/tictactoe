@@ -67,8 +67,8 @@ quit.addEventListener("click", () => {
     document.querySelector(".message").innerText = "Let's Play";
 
     // Reset the score displays for player and computer
-    document.getElementById("player").innerText = `{p_point}`;
-    document.getElementById("computer").innerText = `{c_point}`;
+    document.getElementById("player").innerText = `${p_point}`;
+    document.getElementById("computer").innerText = `${c_point}`;
 
     // Reset the computer's choice display if applicable
     const computerChoiceElement = document.querySelector(".computer-choice");
